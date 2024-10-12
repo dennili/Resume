@@ -1,7 +1,7 @@
 
 ---
-title: G Dennis Liwag
-subtitle: Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
+G Dennis Liwag
+Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
 ---
 
 **Summary**
