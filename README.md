@@ -1,5 +1,3 @@
-# _config.yml
-title: G Dennis Liwage
 
 
 ---
