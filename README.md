@@ -1,4 +1,4 @@
-<!-- data -->
+document.querySelector('.repository-name').style.display = 'none';
 
 ---
 title: Your Name
