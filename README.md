@@ -1,4 +1,4 @@
-
+{{ page.url }}
 
 ---
 title: Your Name
