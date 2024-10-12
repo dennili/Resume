@@ -1,3 +1,7 @@
+# _config.yml
+title: G Dennis Liwage
+
+
 ---
 title: Your Name
 subtitle: Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
