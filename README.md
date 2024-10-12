@@ -1,6 +1,6 @@
 
 ---
-title: Your Name
+title: G Dennis Liwag
 subtitle: Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
 ---
 
