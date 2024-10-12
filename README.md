@@ -1,3 +1,8 @@
+---
+title: Your Name
+subtitle: Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
+---
+
 # Heading Level 1
 ## Heading Level 2 
 ### Heading Level 3
@@ -5,10 +10,7 @@
 ##### Heading Level 5
 ###### Heading Level 6
 
----
-title: Your Name
-subtitle: Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
----
+
 
 **Summary**
 
