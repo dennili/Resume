@@ -24,10 +24,10 @@ Results-driven IT Specialist with over 10 years of experience in step-by-step tr
     * Technical support (10+ years)
     * HTML/CSS (5+ years)
 * **Soft Skills:**
-    * Problem-solving
-    * Teamwork
-    * Communication
-    * Leadership
+    * _Technical Proficiency_: Windows, Printers, Scanners, Cameras, IOS, Android
+    * _Problem-Solving_: Efficiently troubleshoot technical issues and identify solutions
+    * _Multi-tasking_: Manage multiple tasks simultaneously with attention to detail
+    * _Research and Analysis_: Gather and analyze information to inform decision-making
 
 **Experience**
 
