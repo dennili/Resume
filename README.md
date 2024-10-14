@@ -41,7 +41,7 @@ _The Factory Depot_ | **Technical Support/RMA Coordinator** | June 2019 to May 2
 
 **Education**
 
-BS | Mechanical Engineering | MLQ University
+Engineering | MLQ University
 
 **Certifications**
 
