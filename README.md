@@ -49,6 +49,6 @@ BS | Mechanical Engineering | MLQ University
 * The Bits and Bytes of Computer Networking - Google
 * Techinical Support Fundamentals - Google
 
-**References**
+
 
 
