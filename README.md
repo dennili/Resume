@@ -28,11 +28,11 @@ Results-driven IT Specialist with over 10 years of experience in step-by-step tr
 
 **The Factory Depot ** | **Technical Support/RMA Coordinator** | **June 2019 to May 2024**
  
-    * Prioritize critical RMA cases to ensure timely resolution.
-    * Troubleshoot complex technical issues and resolve software and hardware problems.
-    * Process an average of 20 RMA requests per day.
-    * Collaborate closely with suppliers to ensure timely resolution of warranty claims, adherence to product specifications, and effective implementation of testing procedures.
-    *Implement efficient systems for handling returned products, including accurate tracking, inspection, and determination of appropriate actions in alignment with company policies.
+*    Prioritize critical RMA cases to ensure timely resolution.
+*    Troubleshoot complex technical issues and resolve software and hardware problems.
+*    Process an average of 20 RMA requests per day.
+*    Collaborate closely with suppliers to ensure timely resolution of warranty claims, adherence to product specifications, and effective implementation of testing procedures.
+*   Implement efficient systems for handling returned products, including accurate tracking, inspection, and determination of appropriate actions in alignment with company policies.
 
 **Education**
 
