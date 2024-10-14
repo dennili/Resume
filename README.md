@@ -2,22 +2,27 @@
 
 ---
 ## G Dennis Liwag ##
-Ontario, CA 91761 
-dennili@yahoo.com
+Ontario, CA 91761 \
+dennili@yahoo.com\
 (510) 329-9308
-
-Results-driven IT Specialist with over 10 years of experience in step-by-step troubleshooting, software reinstallation, and resolving product and network issues. 
 
 **Summary**
 
-*Briefly describe your professional experience, skills, and career goals.*
+Results-driven IT Specialist with over 10 years of experience in step-by-step troubleshooting, software reinstallation, and resolving product and network issues. Seeking to leverage strong problem-solving abilities and a customer-centric approach to contribute effectively in a technical support role. 
+
 
 **Skills**
 
 * **Technical Skills:**
-    * Programming languages (e.g., Python, Java, C++)
-    * Frameworks (e.g., React, Angular, Django)
-    * Tools (e.g., Git, Docker, AWS)
+    * Windows (10+ years)
+    * Adobe Acrobat (10+ years)
+    * MS Office (10+ years)
+    * Microsoft Excel (10+ years)
+    * Technical Writing (5 years)
+    * Customer Service Skills (6 years)
+    * SQL Server (10+ years)
+    * Technical support (10+ years)
+    * HTML/CSS (5+ years)
 * **Soft Skills:**
     * Problem-solving
     * Teamwork
