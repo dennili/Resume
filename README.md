@@ -31,7 +31,7 @@ Results-driven IT Specialist with over 10 years of experience in step-by-step tr
 
 **Experience**
 
-_The Factory Depot_ | **Technical Support/RMA Coordinator** | **June 2019 to May 2024**
+_The Factory Depot_ | **Technical Support/RMA Coordinator** | June 2019 to May 2024
  
 *    Prioritize critical RMA cases to ensure timely resolution.
 *    Troubleshoot complex technical issues and resolve software and hardware problems.
@@ -41,26 +41,14 @@ _The Factory Depot_ | **Technical Support/RMA Coordinator** | **June 2019 to May
 
 **Education**
 
-**Degree** | **Major** | **University** | **Year**
+BS | Mechanical Engineering | MLQ University
 
 **Certifications**
 
-* Certification Name | Issuing Organization | Year
-
-**Projects**
-
-* **Project Title:**
-    * Description of project and your role
-    * Link to project repository (if applicable)
-
-**Awards & Honors**
-
-* Award Name | Organization | Year
-
-**Publications**
-
-* Publication Title | Journal/Conference | Year
+* Microsoft Certified Systems Administrator 
+* The Bits and Bytes of Computer Networking - Google
+* Techinical Support Fundamentals - Google
 
 **References**
 
-* Available upon request
+
