@@ -26,7 +26,7 @@ Results-driven IT Specialist with over 10 years of experience in step-by-step tr
 
 **Experience**
 
-**The Factory Depot ** | **Technical Support/RMA Coordinator** | **June 2019 to May 2024**
+_The Factory Depot_ | **Technical Support/RMA Coordinator** | **June 2019 to May 2024**
  
 *    Prioritize critical RMA cases to ensure timely resolution.
 *    Troubleshoot complex technical issues and resolve software and hardware problems.
