@@ -23,6 +23,7 @@ Results-driven IT Specialist with over 10 years of experience in step-by-step tr
     * SQL Server (10+ years)
     * Technical support (10+ years)
     * HTML/CSS (5+ years)
+      
 * **Soft Skills:**
     * _Technical Proficiency_: Windows, Printers, Scanners, Cameras, IOS, Android
     * _Problem-Solving_: Efficiently troubleshoot technical issues and identify solutions
