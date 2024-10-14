@@ -1,9 +1,12 @@
 <!-- data -->
 
 ---
-G Dennis Liwag
-Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
----
+## G Dennis Liwag ##
+Ontario, CA 91761 
+dennili@yahoo.com
+(510) 329-9308
+
+Results-driven IT Specialist with over 10 years of experience in step-by-step troubleshooting, software reinstallation, and resolving product and network issues. 
 
 **Summary**
 
@@ -23,11 +26,13 @@ Your Title | Your Email | Your Phone Number | Your LinkedIn | Your Website
 
 **Experience**
 
-**Company Name** | **Role** | **Dates**
-* **Project 1:** 
-    * Description of project and your contributions
-* **Project 2:** 
-    * Description of project and your contributions
+**The Factory Depot ** | **Technical Support/RMA Coordinator** | **June 2019 to May 2024**
+ 
+    * Prioritize critical RMA cases to ensure timely resolution.
+    * Troubleshoot complex technical issues and resolve software and hardware problems.
+    * Process an average of 20 RMA requests per day.
+    * Collaborate closely with suppliers to ensure timely resolution of warranty claims, adherence to product specifications, and effective implementation of testing procedures.
+    *Implement efficient systems for handling returned products, including accurate tracking, inspection, and determination of appropriate actions in alignment with company policies.
 
 **Education**
 
