@@ -1,7 +1,7 @@
 <!-- data -->
 
 ---
-## G Dennis Liwag ##
+![Active Resume](/GDLogo.jpg)
 Ontario, CA 91761 \
 dennili@yahoo.com\
 (510) 329-9308
