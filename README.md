@@ -1,4 +1,4 @@
-<!-- data -->
+
 
 ---
 ![Active Resume](/GDLogo.jpg)\
