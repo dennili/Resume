@@ -5,7 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Body as Flex Container */
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -66,6 +73,7 @@ nav {
 
 /* Main Content */
 main {
+    flex-grow: 1; /* Allows the main content to grow and push the footer down */
     width: 960px;
     margin: 20px auto;
     padding: 20px;
@@ -91,7 +99,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: 20px;
 }
 
 .footer-menu {
@@ -120,3 +127,11 @@ footer {
 .social-media a {
     color: #fff;
     text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
