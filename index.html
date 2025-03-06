@@ -5,6 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #355E3B; /* Hunter Green */
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #355E3B;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-info span {
+            margin-right: 20px;
+        }
+
+        .core-competencies,
+        .work-experience,
+        .education-training,
+        .certifications {
+            margin-bottom: 20px;
+        }
+
+        .core-competencies ul,
+        .work-experience ul,
+        .education-training ul,
+        .certifications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .core-competencies li,
+        .work-experience li,
+        .education-training li,
+        .certifications li {
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #355E3B;
+        }
+
+        .company {
+            font-style: italic;
+            color: #555;
+        }
+
+        .date {
+            color: #777;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+
+   
 </head>
 <body>
     <!-- Banner Section -->
@@ -25,8 +124,107 @@
 
     <main>
         <div class="content">
-            <h1>Welcome to the Home Page</h1>
-            <p>This is the home page of our website. Feel free to explore the other pages using the menu above.</p>
+          <div class="resume">
+        <!-- Header Section -->
+        <header>
+            <h1>Gaudioso Dennis B Liwag</h1>
+            <div class="contact-info">
+                <span>Ontario, CA 91761</span>
+                <span>dennili@yahoo.com</span>
+                <span>(310) 329-9308</span>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section class="professional-summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Dedicated and detail-oriented professional with over 10 years of experience in technical troubleshooting, and customer service, now transitioning to a career in Medical Assisting. Completed training in HIPAA compliance, medical terminologies, OSHA regulations, and clinical medical assisting, with a strong foundation in patient privacy, safety, and clinical support. Passionate about supporting healthcare teams and improving patient experiences through a combination of technical knowledge and compassionate care.
+            </p>
+        </section>
+
+        <!-- Core Competencies -->
+        <section class="core-competencies">
+            <h2>Core Competencies & Transferable Skills</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Electronic Health Records (EHR) Management</li>
+                <li>Technical Troubleshooting & System Diagnostics</li>
+                <li>HIPAA Compliance & Patient Privacy Protocols</li>
+                <li>OSHA Regulations & Workplace Safety</li>
+            </ul>
+            <h3>Clinical & Administrative Skills</h3>
+            <ul>
+                <li>Medical Terminology & Documentation</li>
+                <li>Patient Intake & Vital Signs Monitoring</li>
+                <li>Appointment Scheduling & Clinical Support</li>
+            </ul>
+            <h3>Transferable Skills</h3>
+            <ul>
+                <li>Exceptional Customer Service & Patient Interaction</li>
+                <li>Problem-Solving & Critical Thinking</li>
+                <li>Clear Communication & Team Collaboration</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <div>
+                <p class="job-title">Technical Support/RMA Coordinator</p>
+                <p class="company">The Factory Depot – Riverside, CA</p>
+                <p class="date">June 2019 to May 2024</p>
+                <ul>
+                    <li>Managed RMA cases, resolved technical issues, and improved processing efficiency.</li>
+                    <li>Managed and prioritized critical RMA cases, achieving a 95% resolution rate within established SLAs.</li>
+                    <li>Streamlined return handling systems, improving processing efficiency by 30% and reducing customer wait times.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="job-title">Internet Support Specialist</p>
+                <p class="company">Spectrum – Ontario, CA</p>
+                <p class="date">November 2018 to June 2019</li>
+                <ul>
+                    <li>Provided technical support for internet connectivity, wireless networks, and voice technology.</li>
+                    <li>Provided exceptional technical support across diverse devices, earning consistent customer satisfaction scores of 90% or higher.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="job-title">IT Support Analyst</p>
+                <p class="company">Robert Half Technology – Irvine, CA</p>
+                <p class="date">January 2016 to November 2018</li>
+                <ul>
+                    <li>Supported Oracle E-Business Suite and Office 365 migrations, delivering high-quality customer service.</li>
+                    <li>Delivered high-quality customer service, resolving technical issues with a focus on user satisfaction.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education and Training -->
+        <section class="education-training">
+            <h2>Education and Training</h2>
+            <ul>
+                <li><strong>Chabot College – Hayward CA</strong>: Completed Two Years of Computer Science Coursework</li>
+                <li><strong>Occupational Safety and Health Administration</strong>: Healthstaff Training Institute</li>
+                <li><strong>Health Insurance Portability Accountability Act</strong>: Healthstaff Training Institute</li>
+            </ul>
+        </section>
+
+        <!-- Certifications -->
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Healthcare Data Security, Privacy, and Compliance: John Hopkins University at Coursera</li>
+                <li>Operations and Patient Safety for Healthcare IT Staff: John Hopkins University at Coursera</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Gaudioso Dennis B Liwag. All rights reserved.</p>
+        </footer>
+    </div>
+
         </div>
     </main>
 
