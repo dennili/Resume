@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
     <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        /* Banner Section */
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Container for Layout */
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Left Column (Menu) */
+        .menu {
+            width: 200px;
+            background-color: #355E3B; /* Hunter Green */
+            color: white;
+            padding: 20px;
+        }
+
+        .menu ul {
+            list-style: none;
+        }
+
+        .menu ul li {
+            margin-bottom: 15px;
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Area */
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        /* Resume Styling */
         .resume {
             max-width: 800px;
             margin: 0 auto;
@@ -95,164 +156,174 @@
             color: #777;
         }
 
+        /* Footer */
         footer {
+            background-color: #355E3B;
+            color: white;
             text-align: center;
-            margin-top: 20px;
+            padding: 10px;
             font-size: 14px;
-            color: #777;
+        }
+
+        footer .footer-menu {
+            margin-bottom: 10px;
+        }
+
+        footer .footer-menu li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer .footer-menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer .social-media a {
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
         }
     </style>
-
-   
 </head>
 <body>
     <!-- Banner Section -->
     <section class="banner">
-         <img src="banner-image.png"/>
+        <img src="banner-image.png" alt="Banner Image"/>
     </section>
 
-    <!-- Header Navigation -->
-    <header>
-        <nav>
-    <!--        <ul class="menu">
+    <!-- Container for Layout -->
+    <div class="container">
+        <!-- Left Column (Menu) -->
+        <div class="menu">
+            <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="technology.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul> -->
-        </nav>
-    </header>
-
-    <main>
-        <div class="content">
-          <div class="resume">
-        <!-- Header Section -->
-        <header>
-           
-        </header>
-
-        <!-- Professional Summary -->
-        <section class="professional-summary">
-            <h4>Ontario, CA 91761 | (510) 329-9308</h4>
-            <h2>Medical Assistant</h2>
-            <br>
-            <h3> Skills & Qualification</h3>
-           <ul>
-                <li>Medical terminology, anatomy, medical ethics, emergency procedures, patient history, lab work, vital signs, first aid, hematology, examination procedures, minor office surgery, mediation doses, injections, venipuncture, EKG’s/ECG’s </li>
-               <li>Demonstrate knowledge and utilization of safe medication administration, adhering to Life Care’s policies and procedures</li>
-               <li>Familiar with various electronic medical record software, excellent customer service </li>
-               <li>OSHA-certified, HIPPA-certified, CPR-certified, 45 WPM & advanced computer skills</li>
-           </ul>
-        </section>
-
-        <!-- Core Competencies -->
-        <section class="core-competencies">
-            <h2>Core Competencies & Transferable Skills</h2>
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>Electronic Health Records (EHR) Management</li>
-                <li>Technical Troubleshooting & System Diagnostics</li>
-                <li>HIPAA Compliance & Patient Privacy Protocols</li>
-                <li>OSHA Regulations & Workplace Safety</li>
             </ul>
-            <h3>Clinical & Administrative Skills</h3>
-            <ul>
-                <li>Medical Terminology & Documentation</li>
-                <li>Patient Intake & Vital Signs Monitoring</li>
-                <li>Appointment Scheduling & Clinical Support</li>
-            </ul>
-            <h3>Transferable Skills</h3>
-            <ul>
-                <li>Exceptional Customer Service & Patient Interaction</li>
-                <li>Problem-Solving & Critical Thinking</li>
-                <li>Clear Communication & Team Collaboration</li>
-            </ul>
-        </section>
-
-        <!-- Work Experience -->
-        <section class="work-experience">
-            <h2>Work Experience</h2>
-                <div>
-                <p class="job-title">Medical Assistant Extern</p>
-                <p class="company">JDMD Clinics – Ontario, CA</p>
-                <p class="date">April 2025 to June 2025 </p>
-                <ul>
-                    <li>Assisted in performing DOT physical examinations, including vision, hearing, and urine screening.</li>
-                    <li>Checked exam rooms and supplies every day to make sure everything is stocked and ready for patients.</li>
-                    <li>Assisted  the doctor during patient exams, procedures and treatments.</li>
-                    <li>Performed front desk tasks such as phone calls, scheduling and patient follow up.</li>
-                    <li>Performed patient intake/registration, vital signs, EMT charting. </li>
-                    <li>Administered medications via injections (B12, insulin) and monitored patient vitals pre/post-procedure</li>
-                </ul>
-            </div>
-            
-            <div>
-                <p class="job-title">Technical Support/RMA Coordinator</p>
-                <p class="company">The Factory Depot – Riverside, CA</p>
-                <p class="date">June 2019 to May 2024</p>
-                <ul>
-                    <li>Managed RMA cases, resolved technical issues, and improved processing efficiency.</li>
-                    <li>Managed and prioritized critical RMA cases, achieving a 95% resolution rate within established SLAs.</li>
-                    <li>Streamlined return handling systems, improving processing efficiency by 30% and reducing customer wait times.</li>
-                </ul>
-            </div>
-            <div>
-                <p class="job-title">Internet Support Specialist</p>
-                <p class="company">Spectrum – Ontario, CA</p>
-                <p class="date">November 2018 to June 2019</li>
-                <ul>
-                    <li>Provided technical support for internet connectivity, wireless networks, and voice technology.</li>
-                    <li>Provided exceptional technical support across diverse devices, earning consistent customer satisfaction scores of 90% or higher.</li>
-                </ul>
-            </div>
-            <div>
-                <p class="job-title">IT Support Analyst</p>
-                <p class="company">Robert Half Technology – Irvine, CA</p>
-                <p class="date">January 2016 to November 2018</li>
-                <ul>
-                    <li>Supported Oracle E-Business Suite and Office 365 migrations, delivering high-quality customer service.</li>
-                    <li>Delivered high-quality customer service, resolving technical issues with a focus on user satisfaction.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Education and Training -->
-        <section class="education-training">
-            <h2>Education and Training</h2>
-            <ul>
-                <li><strong>Chabot College – Hayward CA</strong>: Completed Two Years of Computer Science Coursework</li>
-                <li><strong>Clinical Medical Assistant</strong>: Healthstaff Training Institute</li>
-           
-            </ul>
-        </section>
-
-        <!-- Certifications -->
-        <section class="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li><a href="https://coursera.org/share/871dbbc824d66ccf633c8862221fef98"> Healthcare IT Support: John Hopkins University at Coursera</a></li>
-                <li>Operations and Patient Safety for Healthcare IT Staff: John Hopkins University at Coursera</li>
-            </ul>
-        </section>
-
-
-    </div>
-
         </div>
-    </main>
+
+        <!-- Main Content Area -->
+        <div class="content">
+            <div class="resume">
+                <!-- Professional Summary -->
+                <section class="professional-summary">
+                    <h4>Ontario, CA 91761 | (510) 329-9308</h4>
+                    <h2>Medical Assistant</h2>
+                    <br>
+                    <h3>Skills & Qualification</h3>
+                    <ul>
+                        <li>Medical terminology, anatomy, medical ethics, emergency procedures, patient history, lab work, vital signs, first aid, hematology, examination procedures, minor office surgery, mediation doses, injections, venipuncture, EKG’s/ECG’s</li>
+                        <li>Demonstrate knowledge and utilization of safe medication administration, adhering to Life Care’s policies and procedures</li>
+                        <li>Familiar with various electronic medical record software, excellent customer service</li>
+                        <li>OSHA-certified, HIPPA-certified, CPR-certified, 45 WPM & advanced computer skills</li>
+                    </ul>
+                </section>
+
+                <!-- Core Competencies -->
+                <section class="core-competencies">
+                    <h2>Core Competencies & Transferable Skills</h2>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Electronic Health Records (EHR) Management</li>
+                        <li>Technical Troubleshooting & System Diagnostics</li>
+                        <li>HIPAA Compliance & Patient Privacy Protocols</li>
+                        <li>OSHA Regulations & Workplace Safety</li>
+                    </ul>
+                    <h3>Clinical & Administrative Skills</h3>
+                    <ul>
+                        <li>Medical Terminology & Documentation</li>
+                        <li>Patient Intake & Vital Signs Monitoring</li>
+                        <li>Appointment Scheduling & Clinical Support</li>
+                    </ul>
+                    <h3>Transferable Skills</h3>
+                    <ul>
+                        <li>Exceptional Customer Service & Patient Interaction</li>
+                        <li>Problem-Solving & Critical Thinking</li>
+                        <li>Clear Communication & Team Collaboration</li>
+                    </ul>
+                </section>
+
+                <!-- Work Experience -->
+                <section class="work-experience">
+                    <h2>Work Experience</h2>
+                    <div>
+                        <p class="job-title">Medical Assistant Extern</p>
+                        <p class="company">JDMD Clinics – Ontario, CA</p>
+                        <p class="date">April 2025 to June 2025</p>
+                        <ul>
+                            <li>Assisted in performing DOT physical examinations, including vision, hearing, and urine screening.</li>
+                            <li>Checked exam rooms and supplies every day to make sure everything is stocked and ready for patients.</li>
+                            <li>Assisted the doctor during patient exams, procedures, and treatments.</li>
+                            <li>Performed front desk tasks such as phone calls, scheduling, and patient follow-up.</li>
+                            <li>Performed patient intake/registration, vital signs, EMT charting.</li>
+                            <li>Administered medications via injections (B12, insulin) and monitored patient vitals pre/post-procedure</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="job-title">Technical Support/RMA Coordinator</p>
+                        <p class="company">The Factory Depot – Riverside, CA</p>
+                        <p class="date">June 2019 to May 2024</p>
+                        <ul>
+                            <li>Managed RMA cases, resolved technical issues, and improved processing efficiency.</li>
+                            <li>Managed and prioritized critical RMA cases, achieving a 95% resolution rate within established SLAs.</li>
+                            <li>Streamlined return handling systems, improving processing efficiency by 30% and reducing customer wait times.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="job-title">Internet Support Specialist</p>
+                        <p class="company">Spectrum – Ontario, CA</p>
+                        <p class="date">November 2018 to June 2019</p>
+                        <ul>
+                            <li>Provided technical support for internet connectivity, wireless networks, and voice technology.</li>
+                            <li>Provided exceptional technical support across diverse devices, earning consistent customer satisfaction scores of 90% or higher.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="job-title">IT Support Analyst</p>
+                        <p class="company">Robert Half Technology – Irvine, CA</p>
+                        <p class="date">January 2016 to November 2018</p>
+                        <ul>
+                            <li>Supported Oracle E-Business Suite and Office 365 migrations, delivering high-quality customer service.</li>
+                            <li>Delivered high-quality customer service, resolving technical issues with a focus on user satisfaction.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Education and Training -->
+                <section class="education-training">
+                    <h2>Education and Training</h2>
+                    <ul>
+                        <li><strong>Chabot College – Hayward CA</strong>: Completed Two Years of Computer Science Coursework</li>
+                        <li><strong>Clinical Medical Assistant</strong>: Healthstaff Training Institute</li>
+                    </ul>
+                </section>
+
+                <!-- Certifications -->
+                <section class="certifications">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li><a href="https://coursera.org/share/871dbbc824d66ccf633c8862221fef98">Healthcare IT Support: John Hopkins University at Coursera</a></li>
+                        <li>Operations and Patient Safety for Healthcare IT Staff: John Hopkins University at Coursera</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
         <nav>
             <ul class="footer-menu">
-       <!--         <li><a href="index.html">Home</a></li>
-                <li><a href="technology.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div class="social-media">
-     <!--       <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
             <a href="https://twitter.com" target="_blank">X (Twitter)</a>
-            <a href="https://xiaohongshu.com" target="_blank">Xiaohongshu</a> -->
+            <a href="https://xiaohongshu.com" target="_blank">Xiaohongshu</a>
         </div>
     </footer>
 </body>
