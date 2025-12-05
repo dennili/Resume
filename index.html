@@ -31,11 +31,13 @@
         .container {
             display: flex;
             flex: 1;
+            max-width: 1200px; /* Limits the maximum width of the layout */
+            margin: 0 auto; /* Centers the layout horizontally */
         }
 
         /* Left Column (Menu) */
         .menu {
-            width: 200px;
+            width: 200px; /* Fixed width for the menu */
             background-color: #355E3B; /* Hunter Green */
             color: white;
             padding: 20px;
@@ -61,7 +63,7 @@
 
         /* Main Content Area */
         .content {
-            flex: 1;
+            flex: 1; /* Allows the main content to grow dynamically */
             padding: 20px;
             background-color: #fff;
         }
